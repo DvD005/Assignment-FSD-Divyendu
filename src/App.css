@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.mainContainer {
+  display: flex;
+  height: 100vh;
+}
+
+.sideBarContainer {
+  flex: 1;
+}
+
+.mainFormContainer {
+  flex: 3;
+  border-left: 1px solid lightgray;
+}

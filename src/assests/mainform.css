@@ -1,0 +1,172 @@
+.row1 {
+  display: flex;
+  gap: 50px;
+}
+
+.row2 {
+  display: flex;
+  gap: 50px;
+}
+
+.row3 {
+  display: flex;
+  gap: 50px;
+}
+
+.row4 {
+  display: flex;
+  gap: 50px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: flex;
+  margin-bottom: 0.5em;
+}
+
+.form-group text[type="PlacementAssuranceText"] {
+  margin-left: 10px;
+}
+.form-group select {
+  /* Style your select element here */
+  margin-right: auto;
+  width: 250px;
+}
+
+.form-group input[type="checkbox"] {
+  margin-top: 5px;
+  height: 15px;
+  width: 15px;
+}
+
+.form-group span {
+  display: block;
+  margin-top: 0.5em;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.form-container {
+  margin-left: 10px;
+}
+
+.form-section {
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.form-section label {
+  display: flex;
+  width: 250px;
+  margin-bottom: 0.5em;
+}
+
+.form-section input[type="text"],
+.form-section select,
+.form-section textarea {
+  flex: 1;
+  padding: 8px;
+  width: 250px;
+  padding-left: 0px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-section input[type="radio"] {
+  align-self: self-start;
+  width: 30px;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+.description-text {
+  border-bottom: 3px solid lightgray;
+}
+.description-text textarea {
+  height: 100px;
+  width: 1000px;
+}
+
+.form-section .radio-group,
+.form-section .checkbox-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.form-section label input[type="radio"],
+.form-section label input[type="checkbox"] {
+  margin-right: 5px;
+  display: flex;
+}
+
+/* Style for the multi-select input */
+.multi-select {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.multi-select span {
+  display: flex;
+  align-items: center;
+  background-color: #e1e1e1;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.multi-select span svg {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.add-program-section {
+  margin-left: 10px;
+  /* Styles for the add program section */
+}
+
+.confirm-program-section {
+  margin-left: 10px;
+  /* Styles for the confirm program section */
+}
+
+.buttonsContainer {
+  margin-top: 20%;
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+.filterButtons {
+  border-radius: 30px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.endButtons {
+  margin-left: 10px;
+}
+/* Additional styles as needed for alignment, fonts, colors, etc. */
+
+label {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}

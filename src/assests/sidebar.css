@@ -1,0 +1,83 @@
+.sidebarMainContainer {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.headingContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headingButton {
+  height: 40px;
+  background-color: lightblue;
+  border-radius: 100%;
+  padding: 20px;
+  border: none;
+  color: rgb(0, 0, 0);
+  width: 40px;
+  text-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.totalParagraph {
+  margin: 0;
+  padding: 0;
+}
+
+.headingTextContainer h3 {
+  padding-bottom: 0;
+  margin: 0;
+}
+
+.searchBar {
+  margin-top: 20px;
+}
+
+.buttonSearchContainer {
+  margin-top: 5px;
+  display: flex;
+  gap: 5px;
+}
+
+.filterButtons {
+  border-radius: 30px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.endButton {
+  margin-left: auto;
+}
+
+.profileLogo {
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  padding-right: 28px;
+}
+
+.programsContainer {
+  margin-top: 20px;
+}
+
+.eachProgramCOntainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  border-top: 1px solid lightgray;
+}
+
+.programDetaiCOntainer p {
+  margin: 0;
+}
+
+.programDetail {
+  font-size: small;
+  color: gray;
+}
